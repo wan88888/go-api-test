@@ -1,0 +1,30 @@
+# IDE配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+report/
+*.test
+*.prof
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+
+# Go特定文件
+/vendor/
+/bin/
+/pkg/
+*.out
+
+# 依赖管理
+go.work
