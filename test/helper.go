@@ -34,7 +34,6 @@ type TestSuite struct {
 	Client    *client.APIClient
 	TestCases []*TestCase
 	t         *testing.T
-	sc        *godog.ScenarioContext
 }
 
 // NewTestSuite 创建新的测试套件
