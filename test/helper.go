@@ -8,7 +8,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cucumber/godog"
 	"github.com/fatih/color"
 	"github.com/go-resty/resty/v2"
 	"github.com/wan/go-api-test/client"
