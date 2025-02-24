@@ -172,13 +172,13 @@ func (s *TestSuite) GenerateReport() {
 		color.RedString("%d", failedCases))
 
 	// 生成HTML报告
-	tmpl, err := template.ParseFiles("/Users/wan/Trae/go-api-test/config/template.html")
+	tmpl, err := template.ParseFiles("config/template.html")
 	if err != nil {
 		fmt.Printf("解析HTML模板失败: %v\n", err)
 		return
 	}
 
-	reportFile, err := os.Create("/Users/wan/Trae/go-api-test/report/test_report.html")
+	reportFile, err := os.Create("report/test_report.html")
 	if err != nil {
 		fmt.Printf("创建报告文件失败: %v\n", err)
 		return
